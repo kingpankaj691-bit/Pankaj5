@@ -20,7 +20,7 @@ jobs:
         distribution: 'temurin'
 
     - name: Unzip the Project
-      run: unzip NovaAI-v4_2-HeyNova-fixed.zip
+      run: unzip NovaAI.zip
 
     - name: Setup Gradle
       # Ye action automatically Gradle install aur configure kar dega
